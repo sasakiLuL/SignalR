@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d75c50dd-3dc5-49da-a75c-cf5b819c6573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Types">
+      <UniqueIdentifier>{c2147894-819a-4ce6-8f7e-957bed14b06e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Types\Error">
+      <UniqueIdentifier>{4171530d-2ab8-4079-9282-f88bad465b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Types\Lexem">
+      <UniqueIdentifier>{aa4832f3-b49f-4a7c-8251-dc4806bb58f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Tables">
+      <UniqueIdentifier>{6f20034f-8c78-44b7-9fdf-96d1d8a9a43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LexicalAnalysis">
+      <UniqueIdentifier>{4f6c6890-5bb5-4598-ba8b-6779a37f4577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LexicalAnalysis\Lexer">
+      <UniqueIdentifier>{220b9774-60da-4cd2-b801-ae19db49e729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Api">
+      <UniqueIdentifier>{b3f3931f-049f-439f-8eee-958715c6ba0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Api\Printer">
+      <UniqueIdentifier>{3ada3c86-b9bb-4c43-b4e0-120f82bbd0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyntacticAnalysis">
+      <UniqueIdentifier>{2eafd5fd-9033-4d0e-b62c-8c42a945cb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyntacticAnalysis\Parser">
+      <UniqueIdentifier>{296187e7-5823-40a3-acf6-b61e0d3ba2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyntacticAnalysis\TreeNode">
+      <UniqueIdentifier>{6f24d3e8-bea9-44df-9dc8-98269f19a10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyntacticAnalysis\SententialForm">
+      <UniqueIdentifier>{79a278b0-c658-401f-a85a-c79b6e6d58e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LexicalAnalysis\LexicalErrors">
+      <UniqueIdentifier>{bcfb486b-125c-4d48-a246-fe406fc76565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyntacticAnalysis\SyntacticErrors">
+      <UniqueIdentifier>{cedf5cdc-df24-4619-9781-ed88ddf944fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Types\Error\Error.cpp">
+      <Filter>Core\Types\Error</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Types\Lexem\Lexem.cpp">
+      <Filter>Core\Types\Lexem</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Tables\Tables.cpp">
+      <Filter>Core\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicalAnalysis\Lexer\Lexer.cpp">
+      <Filter>LexicalAnalysis\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Api\Printer\Printer.cpp">
+      <Filter>Api\Printer</Filter>
+    </ClCompile>
+    <ClCompile Include="Api\main.cpp">
+      <Filter>Api</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntacticAnalysis\Parser\Parser.cpp">
+      <Filter>SyntacticAnalysis\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntacticAnalysis\SententialForm\SententialForm.cpp">
+      <Filter>SyntacticAnalysis\SententialForm</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicalAnalysis\LexicalErrors\LexicalErrors.cpp">
+      <Filter>LexicalAnalysis\LexicalErrors</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntacticAnalysis\SyntacticErrors\SyntacticErrors.cpp">
+      <Filter>SyntacticAnalysis\SyntacticErrors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Types\Error\Error.h">
+      <Filter>Core\Types\Error</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Types\Lexem\Lexem.h">
+      <Filter>Core\Types\Lexem</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Types\Lexem\LexemType.h">
+      <Filter>Core\Types\Lexem</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Types\Lexem\LexicalCategory.h">
+      <Filter>Core\Types\Lexem</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Tables\Tables.h">
+      <Filter>Core\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalAnalysis\Lexer\Lexer.h">
+      <Filter>LexicalAnalysis\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalAnalysis\Lexer\LexerConfiguration.h">
+      <Filter>LexicalAnalysis\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Api\Printer\Printer.h">
+      <Filter>Api\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntacticAnalysis\Parser\Parser.h">
+      <Filter>SyntacticAnalysis\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntacticAnalysis\TreeNode\TreeNode.h">
+      <Filter>SyntacticAnalysis\TreeNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntacticAnalysis\SententialForm\SententialForm.h">
+      <Filter>SyntacticAnalysis\SententialForm</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalAnalysis\LexicalErrors\LexicalErrors.h">
+      <Filter>LexicalAnalysis\LexicalErrors</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntacticAnalysis\SyntacticErrors\SyntacticErrors.h">
+      <Filter>SyntacticAnalysis\SyntacticErrors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
